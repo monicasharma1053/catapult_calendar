@@ -4,6 +4,8 @@
 
 $grayMediumLight: #eaeaea;
 
+$catapultRed: #DC143C; 
+
 /* universal */
 
 html {
@@ -23,6 +25,7 @@ textarea {
 }
 
 .center {
+  border: 13px solid $catapultRed;
   text-align: center;
   h1 {
     margin-bottom: 10px;

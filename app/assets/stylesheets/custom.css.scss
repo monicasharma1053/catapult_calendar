@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 section {
@@ -48,6 +48,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  text-shadow: 5px 5px 0px white, 7px 7px 0px $catapultRed;
 }
 
 h2 {
@@ -57,6 +58,7 @@ h2 {
   text-align: center;
   font-weight: normal;
   color: $grayLight;
+  a:link {color: $catapultRed;}
 }
 
 p {
@@ -64,8 +66,14 @@ p {
   line-height: 1.7em;
 }
 
+.btn{
+  
+}
 
 /* header */
+
+header{
+
 
 #logo {
   float: left;
@@ -74,13 +82,14 @@ p {
   color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
+  padding-top: 19px;
   font-weight: bold;
   line-height: 1;
   &:hover {
     color: white;
     text-decoration: none;
   }
+}
 }
 
 /* footer */

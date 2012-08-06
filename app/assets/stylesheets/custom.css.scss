@@ -28,11 +28,13 @@ textarea {
 
 .center {
   border: 13px solid $black;
-  -moz-box-shadow: 0 0 5px 5px $catapultRed; 
-  -webkit-box-shadow: 0 0 5px 5px $catapultRed; 
-  box-shadow: 0 0 5px 5px $catapultRed;
+  -moz-box-shadow: 0 0 3px 3px $catapultRed; 
+  -webkit-box-shadow: 0 0 3px 3px $catapultRed; 
+  box-shadow: 0 0 3px 3px $catapultRed;
   text-align: center;
   h1 {
+    padding: 20px;
+    margin-top: 10px; 
     margin-bottom: 10px;
   }
 }
@@ -48,9 +50,10 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  text-shadow: 5px 5px 0px white, 7px 7px 0px $catapultRed;
+  text-shadow: 2px 2px 2px $catapultRed; 
 }
 
+/* 
 h2 {
   font-size: 1.7em;
   letter-spacing: -1px;
@@ -60,6 +63,7 @@ h2 {
   color: $grayLight;
   a:link {color: $catapultRed;}
 }
+*/ 
 
 p {
   font-size: 1.1em;

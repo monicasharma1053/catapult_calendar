@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120815182315) do
+ActiveRecord::Schema.define(:version => 20120827155051) do
+
+  create_table "hours", :force => true do |t|
+    t.string   "date"
+    t.string   "start_time"
+    t.string   "session_length"
+    t.string   "individual_session"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "name"

@@ -1,4 +1,6 @@
 CatapultCalendar::Application.routes.draw do
+  get "hours/new"
+
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
 
